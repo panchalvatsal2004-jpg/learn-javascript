@@ -34,3 +34,49 @@ let hasLiecence = false;
 console.log(isAdult && hasLiecence);  // false (kyunki hasLiecence false hai)
 console.log(isAdult || hasLiecence);  // true  (koi bhi ek true ho to true)
 console.log(!isAdult);          // false (NOT, opposite karta hai)
+
+
+
+// imp notes avoid:
+
+
+/*
+✅ JavaScript me `null` aur `undefined` ka Comparison - Simple Notes
+
+1️⃣ null aur undefined kya hote hain?
+- null → khaali ya kuch nahi
+- undefined → variable bana diya, par usme koi value nahi dali
+
+2️⃣ Comparison operators (<, >, >=, <=) ke saath kya hota hai?
+- null → number me convert ho jaata hai (0)
+- undefined → number me convert hota hai, par ban jaata hai NaN (Not a Number)
+
+3️⃣ == operator ke saath kya hota hai?
+- null sirf undefined ke equal hota hai.
+- Examples:
+  - null == undefined → true
+  - null == 0 → false
+  - undefined == 0 → false
+
+4️⃣ === operator ke saath kya hota hai?
+- === value aur type dono check karta hai.
+- Examples:
+  - null === undefined → false
+  - null === null → true
+  - undefined === undefined → true
+
+5️⃣ Examples for Comparison:
+console.log(null > 0);      // false (null → 0; 0 > 0 → false)
+console.log(null >= 0);     // true  (null → 0; 0 >= 0 → true)
+console.log(null == 0);     // false (null sirf undefined ke equal hota hai)
+
+console.log(undefined > 0);  // false (undefined → NaN; NaN > 0 → false)
+console.log(undefined >= 0); // false (undefined → NaN; NaN >= 0 → false)
+console.log(undefined == 0); // false (undefined sirf null ke equal hota hai)
+
+🌟 Final Yaad Karne Wala Point:
+- null → 0 ban jaata hai comparisons me
+- undefined → NaN ban jaata hai comparisons me
+- null aur undefined sirf aapas me == hote hain (true), kisi aur ke nahi
+*/
+
