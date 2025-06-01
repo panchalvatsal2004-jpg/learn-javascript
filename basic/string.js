@@ -1,3 +1,13 @@
+// string ka matlab koi bhi text 
+// "",'',``   string ko 3 tarike se declare kar sakte he
+
+let name = "vatsal"
+let age  = 21
+// console.log("my name is " + name + " and my age is " + age); // method 1 
+// console.log(`my name is ${name} and my age is ${age}`); // method 2
+
+
+
 let str = "   JavaScript is awesome!   ";
 
 // Important string methods:
@@ -12,3 +22,5 @@ console.log(str.indexOf("a"));        // Pehli baar "a" kaha aaya, uska index
 console.log(str.replace("awesome", "great")); // "awesome" ko "great" se replace karta hai
 console.log(str.repeat(3));           // String ko 3 baar repeat karta hai
 console.log(str.split(" "));          // String ko array me convert karta hai (space ke hisab se)
+
+
