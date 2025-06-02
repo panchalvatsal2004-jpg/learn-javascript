@@ -7,7 +7,7 @@ console.log(mydate.getHours()); // 5
 
 console.log(mydate.getMinutes()); // 15
 
-console.log(mydate.getSeconds()); // 10
+console.log(mydate.getSeconds()); // 10 
 
 console.log(mydate.getMilliseconds()); // 123
 
