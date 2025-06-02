@@ -48,6 +48,8 @@ num.splice(1, 0, "vatsal", "rahul"); // index 1 se 0 items remove kar ke ye item
 console.log(num);             // [1, "vatsal", "rahul", 5]
 
 
+
+
 // ✏️ Summary:
 // - Indexing 0 se start hoti hai
 // - slice() original array ko nahi badalta
