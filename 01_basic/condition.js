@@ -81,15 +81,19 @@ if(marks >= 90){
 }
 
 // 4. Nested if
-let hasID = true;
-if(age >= 18){
-  if(hasID){
-    console.log("Entry allowed");
-  } else {
-    console.log("Bring your ID");
-  }
-}
+let agee = 14
+let voterid = true
 
+if (agee >= 18) {
+    if (voterid) {
+        console.log("ok");
+    }
+
+}
+else {
+    console.log("error");
+
+}
 // 5. Logical Operators
 if(age >= 18 && hasID){
   console.log("Allowed");
