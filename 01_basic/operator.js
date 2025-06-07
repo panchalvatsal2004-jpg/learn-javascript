@@ -22,7 +22,7 @@ console.log(5 == "5");   // true (sirf value check)
 console.log(5 === "5");  // false (value aur type dono check)
 console.log(5 != 6);     // true
 console.log(5 !== "5");  // true
-console.log(5 > 3);      // true
+console.log(5 > 3);      // true 
 console.log(5 < 3);      // false
 console.log(5 >= 5);     // true
 console.log(5 <= 4);     // false
